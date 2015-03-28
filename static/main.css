@@ -1,0 +1,24 @@
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+.alert {margin-top: 10px; margin-left: auto;}
+
+#footer { border-top: 3px solid #337ab7;
+          padding-top: 5px;}
+
+#group-selector, #add_button { padding-top: 20px;}
+
+#group-selector {
+margin: 10px 0;
+}
+#group-selector select {
+margin: 0;
+width: 85%;
+background-color: #ffffff;
+border: 1px solid #cccccc;
+height: 30px;
+line-height: 30px;
+color: #555555;
+}
+
+
