@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang='uk' xmlns="http://www.w3.org/1999/html">
+
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Журнал обліку</title>
+        <meta name="description" value="Сервіс обліку студентів навчального закладу" />
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+
+        <!-- including stlyles just cope it from google search -->
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+        <link rel="stylesheet"
+              href="./main.css" />
+
+
+
+    </head>
+
+
+
+    <body>
+
+        <div class="container">
+
+            <!-- Лого і група -->
+            <div id="header" class="row">
+
+                <div class="col-xs-9"> <h1>Сервіс Обліку Студентів</h1>  </div> <!-- Блок на лого  -->
+
+                <div id="group-selector" class="col-xs-3"> <strong> Групи: </strong>   <!-- Блок на кнопку  -->
+
+                    <select>
+                        <option value=""> ПЦБ </option>
+                        <option value=""> МБГ </option>
+                        <option value=""> Всі студенти </option>
+                    </select>
+
+                </div>
+            </div>
+
+            <!-- Навігація -->
+            <div id="subheader" class="row">
+                 <div class="col-xs-12">
+                     <ul class="nav nav-tabs">
+                         <li role="presentation"><a href="#">Студенти</a></li>
+                         <li role="presentation" class="active"> <a href="#">Відвідування</a></li>
+                         <li role="presentation"><a href="#">Групи</a></li>
+
+                     </ul>
+                 </div>
+            </div>
+
+            <!-- Самі списки і кнопка додати -->
+
+            <div id="column_text" class="row">
+
+                <div class="col-xs-12" id="content_columns">
+                    <h2> Облік відвідувань </h2>
+
+                    <p id="month" >
+
+                        <a class="disabled" href="#" aria-label="Previous">
+                        <span aria-hidden="true" >&larr; </span>
+                      </a>
+                        Жовтень
+                        <a class="disabled" href="#" aria-label="Next">
+                        <span aria-hidden="true" >&rarr; </span>
+                      </a>
+                    </p>
+
+
+                    <!-- ________________________ -->
+                    <!--    Журнал                -->
+                    <!-- ________________________ -->
+                    <table class="table table-bordered">
+
+                        <thead>
+                            <tr>
+                                 <th> # </th>
+                                 <th> Студент </th>
+                                 <th> Ср </br> 1 </th>
+                                 <th> Чт </br> 2 </th>
+                                 <th> Пт </br> 3 </th>
+                                 <th> Сб </br> 4 </th>
+                                 <th> Нд </br> 5 </th>
+                                 <th> Пн </br> 6 </th>
+                                 <th> Вт </br> 7 </th>
+                                 <th> Ср </br> 8 </th>
+                                 <th> Чт </br> 9 </th>
+                                 <th> Пт </br> 10 </th>
+                                 <th> Сб </br> 11 </th>
+                                 <th> Нд </br> 12 </th>
+                                 <th> Пн </br> 13 </th>
+                                 <th> Вт </br> 14 </th>
+                                 <th> Ср </br> 15 </th>
+                                 <th> Чт </br> 16 </th>
+                                 <th> Пт </br> 17 </th>
+                                 <th> Сб </br> 18 </th>
+                                 <th> Нд </br> 19 </th>
+                                 <th> Пн </br> 20 </th>
+                                 <th> Вт </br> 21 </th>
+                                 <th> Ср </br> 22 </th>
+                                 <th> Чт </br> 23 </th>
+                                 <th> Пт </br> 24 </th>
+                                 <th> Сб </br> 25 </th>
+                                 <th> Нд </br> 26 </th>
+                                 <th> Пн </br> 27 </th>
+                                 <th> Вт </br> 28 </th>
+                                 <th> Ср </br> 29 </th>
+                                 <th> Чт </br> 30 </th>
+                                 <th> Пт </br> 31 </th>
+                            </tr>
+                      </thead>
+
+                        <tbody>
+                            <tr>
+                              <td> 1 </td>
+                              <td> <a title="Редагувати" href="#"> Винничук Тарас </a> </td>
+
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                            </tr>
+
+                            <tr>
+                              <td> 2 </td>
+                              <td> <a title="Редагувати" href="#"> Винтар Степан </a> </td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                            </tr>
+
+                            <tr>
+                              <td> 3 </td>
+                              <td> <a title="Редагувати" href="#"> Волинець Марія </a> </td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                                <td><form action=""> <input type="checkbox" name="present" value="yes"></form></td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+
+
+                    <!-- Паджинейшн для груп -->
+
+
+                </div>
+
+
+                <!-- Кнопка додати групу  -->
+
+
+            </div>
+
+            <!-- Футер -->
+            <div id="footer" class="row">
+                <div class="col-xs-12">  <h6>&copy; 2015 Tlymki production</h6>  </div>
+            </div>
+
+        </div>
+
+
+        <!-- java sript inserting for Jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js" /> </script>
+
+        <!-- java sript inserting to body form googlesearch copied -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    </body>
+
+
+</html>
+

@@ -2,6 +2,14 @@
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
 .alert {margin-top: 10px; margin-left: auto;}
+.layer1 {
+    float: left; /* Обтекание по правому краю */
+    background: #fd0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 50%; /* Ширина блока */
+   }
 
 #footer { border-top: 3px solid #337ab7;
           padding-top: 5px;}
@@ -20,5 +28,8 @@ height: 30px;
 line-height: 30px;
 color: #555555;
 }
+
+#month { margin-left: 45%;}
+#form_edit { margin-left: 30%}
 
 
